@@ -21,4 +21,9 @@ int main()
     int numDisks;
     cout << "Enter the number of disks: ";
     cin >> numDisks;
+
+    moveDisks(numDisks, 1, 3, 2);
+    return 0;
 }
+
+
