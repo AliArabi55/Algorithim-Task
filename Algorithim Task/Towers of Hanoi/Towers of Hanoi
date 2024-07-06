@@ -16,3 +16,9 @@ void moveDisks(int n, int fromTower, int toTower, int betweenTower)
 }
 
 
+int main()
+{
+    int numDisks;
+    cout << "Enter the number of disks: ";
+    cin >> numDisks;
+}
