@@ -1,4 +1,12 @@
 #include <iostream>
 using namespace std;
 
+void moveDisks(int n, int fromTower, int toTower, int betweenTower)
+{
+    if (n == 1)
+    {
+        cout << "Move disk 1 from tower " << fromTower << " to tower " << toTower << endl;
+        return;
+    }
 
+}
