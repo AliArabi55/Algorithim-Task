@@ -12,6 +12,7 @@ void moveDisks(int n, int fromTower, int toTower, int betweenTower)
 
     cout << "Move disk " << n << " from tower " << fromTower << " to tower " << toTower << endl;
 
-
-
+    moveDisks(n-1, betweenTower, toTower, fromTower);
 }
+
+
